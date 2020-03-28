@@ -81,7 +81,6 @@ const cities = [
 ];
 
 const WeatherSetting = ({
-  page,
   openSetting,
   setLocationName,
   setCityName
