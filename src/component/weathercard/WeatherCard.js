@@ -8,10 +8,10 @@ import WeatherIcon from "../weathericons/WeatherIcon";
 import WeatherSetting from "../weathersetting/WeatherSetting";
 
 const url_1 =
-  "https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=CWB-706FB73B-04B6-4011-A4F7-7908A67C6028&locationName=";
+  "https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=yourApiKey&locationName=";
 
 const url_2 =
-  "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-706FB73B-04B6-4011-A4F7-7908A67C6028&locationName=";
+  "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=yourApiKey&locationName=";
 
 const dayOrNight = new Date().getHours();
 
